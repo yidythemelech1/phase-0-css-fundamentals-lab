@@ -3,3 +3,58 @@ body {
   height: 100%;
   margin: 0;
 }
+/* Temporary rule to check if the stylesheet is linked correctly */
+h1 {
+  color: red;
+}
+/* Remove the above rule once you verify the linkage */
+
+/* Center the header text */
+header {
+  text-align: center;
+}
+
+/* Center the image */
+img {
+  display: block;
+  margin: 0 auto;
+}
+
+/* Style the navigation links */
+nav a {
+  padding: 10px;
+  background-color: grey; /* Change this color to your preference */
+  display: inline-block;
+  text-align: center;
+}
+
+/* Style the image caption */
+figcaption {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+/* Style the text block */
+#featured-property p {
+  width: 800px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 10px 0; /* Add vertical space */
+}
+
+/* Make the #details section horizontal */
+#details div {
+  float: left;
+  width: 25%; /* Occupy 25% of the width of the bottom row */
+  text-align: center;
+  background-color: #f0f0f0; /* Change this color to your preference */
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+/* Clear floats after the #details section */
+#details:after {
+  content: "";
+  display: table;
+  clear: both;
+}
